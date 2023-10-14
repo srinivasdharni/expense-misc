@@ -1,6 +1,6 @@
 	terraform {
 	  backend "s3" {
-	    bucket = "terraform-sd18"
+	    bucket = "terraform-expense"
 	    key    = "misc/jenkins-ip/terraform.tfstate"
 	    region = "us-east-1"
 	
